@@ -4,10 +4,10 @@ import pymongo
 import tweepy
 from config import generate_dm_text
 
-consumer_token = os.environ['TW_CTOKEN']
-consumer_secret = os.environ['TW_CSECRET']
-access_token = os.environ['TW_ATOKEN']
-access_token_secret = os.environ['TW_ASECRET']
+consumer_token = os.environ['consumer_key']
+consumer_secret = os.environ['consumer_secret']
+access_token = os.environ['access_key']
+access_token_secret = os.environ['access_token_secret']
 
 auth = tweepy.OAuthHandler(consumer_token, consumer_secret)
 
